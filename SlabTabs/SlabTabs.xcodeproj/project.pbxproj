@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F03675312891406500EED097 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03675302891406500EED097 /* Signup.swift */; };
+		F03675332891514A00EED097 /* SharedClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03675322891514A00EED097 /* SharedClass.swift */; };
+		F0B1888E288918B000D1683F /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B1888D288918B000D1683F /* HomePage.swift */; };
+		F0B188922889193800D1683F /* myslabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B188912889193800D1683F /* myslabs.swift */; };
+		F0B18894288919FE00D1683F /* Portfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B18893288919FE00D1683F /* Portfolio.swift */; };
+		F0B1889628891A2500D1683F /* More.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B1889528891A2500D1683F /* More.swift */; };
+		F0B1889828891A4300D1683F /* addslab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B1889728891A4300D1683F /* addslab.swift */; };
+		F0EA77972885AD100096236A /* SlabTabsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EA77962885AD100096236A /* SlabTabsApp.swift */; };
+		F0EA77992885AD100096236A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EA77982885AD100096236A /* ContentView.swift */; };
+		F0EA779B2885AD310096236A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0EA779A2885AD310096236A /* Assets.xcassets */; };
+		F0EA779E2885AD310096236A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0EA779D2885AD310096236A /* Preview Assets.xcassets */; };
+		F0EA77A62885ADB20096236A /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EA77A52885ADB20096236A /* WelcomeScreen.swift */; };
+		F0EA77A82885B14D0096236A /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EA77A72885B14D0096236A /* SignIn.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F03675302891406500EED097 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		F03675322891514A00EED097 /* SharedClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedClass.swift; sourceTree = "<group>"; };
+		F0B1888D288918B000D1683F /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		F0B188912889193800D1683F /* myslabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myslabs.swift; sourceTree = "<group>"; };
+		F0B18893288919FE00D1683F /* Portfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portfolio.swift; sourceTree = "<group>"; };
+		F0B1889528891A2500D1683F /* More.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = More.swift; sourceTree = "<group>"; };
+		F0B1889728891A4300D1683F /* addslab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addslab.swift; sourceTree = "<group>"; };
+		F0EA77932885AD100096236A /* SlabTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlabTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0EA77962885AD100096236A /* SlabTabsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlabTabsApp.swift; sourceTree = "<group>"; };
+		F0EA77982885AD100096236A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0EA779A2885AD310096236A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0EA779D2885AD310096236A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0EA77A52885ADB20096236A /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		F0EA77A72885B14D0096236A /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0EA77902885AD100096236A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0B188902889192200D1683F /* TabPages */ = {
+			isa = PBXGroup;
+			children = (
+				F0B188912889193800D1683F /* myslabs.swift */,
+				F0B18893288919FE00D1683F /* Portfolio.swift */,
+				F0B1889528891A2500D1683F /* More.swift */,
+				F0B1889728891A4300D1683F /* addslab.swift */,
+			);
+			path = TabPages;
+			sourceTree = "<group>";
+		};
+		F0EA778A2885AD100096236A = {
+			isa = PBXGroup;
+			children = (
+				F0EA77952885AD100096236A /* SlabTabs */,
+				F0EA77942885AD100096236A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0EA77942885AD100096236A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0EA77932885AD100096236A /* SlabTabs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0EA77952885AD100096236A /* SlabTabs */ = {
+			isa = PBXGroup;
+			children = (
+				F0EA77962885AD100096236A /* SlabTabsApp.swift */,
+				F0EA77982885AD100096236A /* ContentView.swift */,
+				F0B1888D288918B000D1683F /* HomePage.swift */,
+				F0B188902889192200D1683F /* TabPages */,
+				F0EA77A42885AD8D0096236A /* SignUpandSignIn */,
+				F0EA779A2885AD310096236A /* Assets.xcassets */,
+				F0EA779C2885AD310096236A /* Preview Content */,
+				F03675322891514A00EED097 /* SharedClass.swift */,
+			);
+			path = SlabTabs;
+			sourceTree = "<group>";
+		};
+		F0EA779C2885AD310096236A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F0EA779D2885AD310096236A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0EA77A42885AD8D0096236A /* SignUpandSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				F0EA77A52885ADB20096236A /* WelcomeScreen.swift */,
+				F0EA77A72885B14D0096236A /* SignIn.swift */,
+				F03675302891406500EED097 /* Signup.swift */,
+			);
+			path = SignUpandSignIn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0EA77922885AD100096236A /* SlabTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0EA77A12885AD310096236A /* Build configuration list for PBXNativeTarget "SlabTabs" */;
+			buildPhases = (
+				F0EA778F2885AD100096236A /* Sources */,
+				F0EA77902885AD100096236A /* Frameworks */,
+				F0EA77912885AD100096236A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlabTabs;
+			productName = SlabTabs;
+			productReference = F0EA77932885AD100096236A /* SlabTabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0EA778B2885AD100096236A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F0EA77922885AD100096236A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F0EA778E2885AD100096236A /* Build configuration list for PBXProject "SlabTabs" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0EA778A2885AD100096236A;
+			productRefGroup = F0EA77942885AD100096236A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0EA77922885AD100096236A /* SlabTabs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0EA77912885AD100096236A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EA779E2885AD310096236A /* Preview Assets.xcassets in Resources */,
+				F0EA779B2885AD310096236A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0EA778F2885AD100096236A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B1889628891A2500D1683F /* More.swift in Sources */,
+				F03675312891406500EED097 /* Signup.swift in Sources */,
+				F0B1888E288918B000D1683F /* HomePage.swift in Sources */,
+				F0EA77A62885ADB20096236A /* WelcomeScreen.swift in Sources */,
+				F03675332891514A00EED097 /* SharedClass.swift in Sources */,
+				F0B1889828891A4300D1683F /* addslab.swift in Sources */,
+				F0EA77992885AD100096236A /* ContentView.swift in Sources */,
+				F0B18894288919FE00D1683F /* Portfolio.swift in Sources */,
+				F0B188922889193800D1683F /* myslabs.swift in Sources */,
+				F0EA77972885AD100096236A /* SlabTabsApp.swift in Sources */,
+				F0EA77A82885B14D0096236A /* SignIn.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F0EA779F2885AD310096236A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0EA77A02885AD310096236A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0EA77A22885AD310096236A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SlabTabs/Preview Content\"";
+				DEVELOPMENT_TEAM = 32GJ539AQ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tapaway.SlabTabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0EA77A32885AD310096236A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SlabTabs/Preview Content\"";
+				DEVELOPMENT_TEAM = 32GJ539AQ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tapaway.SlabTabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0EA778E2885AD100096236A /* Build configuration list for PBXProject "SlabTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0EA779F2885AD310096236A /* Debug */,
+				F0EA77A02885AD310096236A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0EA77A12885AD310096236A /* Build configuration list for PBXNativeTarget "SlabTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0EA77A22885AD310096236A /* Debug */,
+				F0EA77A32885AD310096236A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0EA778B2885AD100096236A /* Project object */;
+}
