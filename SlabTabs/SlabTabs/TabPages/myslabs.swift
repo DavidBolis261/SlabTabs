@@ -25,7 +25,7 @@ struct myslabs: View {
             
             ScrollView(){
                 ForEach(0..<7, id: \.self){ i in
-                    slabView().padding().border(.gray, width: 1).shadow(color: Color.black, radius: 2, x: 1, y: -1)
+                    slabView().padding().border(.gray, width: 1)
                 }
             }
                 
@@ -53,42 +53,51 @@ struct slabView: View {
                         Spacer()
                         Text("David Bolis")
                     }
+                    Divider()
                     HStack{
                         Text("SET")
                         Spacer()
                         Text("1995-93 Tops Gold")
                     }
+                    Divider()
                     HStack{
                         Text("CARD")
                         Spacer()
                         Text("Rookie Card")
                     }
-                    HStack{
-                        Text("NO.")
-                        Spacer()
-                        Text("392")
+                    VStack{
+                        HStack{
+                            Text("NO.")
+                            Spacer()
+                            Text("392")
+                        }
+                        Divider()
+                        HStack{
+                            Text("POP.")
+                            Spacer()
+                            Text("352-0-48")
+                        }
+                        Divider()
+                        HStack{
+                            Text("GRADE")
+                            Spacer()
+                            Text("PSA 9")
+                        }
+                        Divider()
+                        HStack{
+                            Text("PRICE")
+                            Spacer()
+                            Text("$23.44")
+                        }
+                        Divider()
+                        HStack{
+                            Text("NOTES")
+                            Spacer()
+                            Text("Some notes here")
+                        }
                     }
-                    HStack{
-                        Text("POP.")
-                        Spacer()
-                        Text("352-0-48")
-                    }
-                    HStack{
-                        Text("GRADE")
-                        Spacer()
-                        Text("PSA 9")
-                    }
-                    HStack{
-                        Text("PRICE")
-                        Spacer()
-                        Text("$23.44")
-                    }
-                    HStack{
-                        Text("NOTES")
-                        Spacer()
-                        Text("Some notes here")
-                    }
-                }.offset(y: -25)
+                    
+                }//.offset(y: -25)
                 Image("testImage").resizable().frame(width: 100, height: 200)
             }
             

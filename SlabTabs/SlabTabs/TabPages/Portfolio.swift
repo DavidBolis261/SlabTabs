@@ -20,14 +20,14 @@ struct Portfolio: View {
                             Text("Tracked Cards").foregroundColor(Color.black)
                         }
                         
-                    }.frame(width: 150, height: 100).border(.black, width: 1).shadow(color: Color.black, radius: 1, x: 1, y: 1)
+                    }.frame(width: 150, height: 100).border(.black, width: 1)
                     Button(action:{ }){
                         VStack(alignment:.leading){
                             Text("$300")
                             Text("Estimated Value").foregroundColor(Color.black)
                         }
                         
-                    }.frame(width: 150, height: 100).border(.black, width: 1).shadow(color: Color.black, radius: 1, x: 1, y: 1)
+                    }.frame(width: 150, height: 100).border(.black, width: 1)
                 }
                 HStack{
                     Button(action:{ }){
@@ -36,14 +36,14 @@ struct Portfolio: View {
                             Text("Purchase Price").foregroundColor(Color.black)
                         }
                         
-                    }.frame(width: 150, height: 100).border(.black, width: 1).shadow(color: Color.black, radius: 1, x: 1, y: 1)
+                    }.frame(width: 150, height: 100).border(.black, width: 1)
                     Button(action:{ }){
                         VStack(alignment:.leading){
                             Text("$50")
                             Text("Estimated Profit").foregroundColor(Color.black)
                         }
                         
-                    }.frame(width: 150, height: 100).border(.black, width: 1).shadow(color: Color.black, radius: 1, x: 1, y: 1)
+                    }.frame(width: 150, height: 100).border(.black, width: 1)
                 }
                 Spacer()
             }
