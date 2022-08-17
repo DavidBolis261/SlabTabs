@@ -13,7 +13,7 @@ struct WelcomeScreen: View {
     var body: some View {
         VStack{
             Spacer()
-            Image("AppIcon").resizable().frame(width: 200, height: 100)
+            Image("AppIcontt").resizable().frame(width: 200, height: 100)
             Text("Keeping \(sharedClass.navPage) tabs on your slabs...").bold()
             Spacer()
             Button(action:{sharedClass.navPage = 1 }){

@@ -13,7 +13,7 @@ struct SignIn: View {
     @EnvironmentObject var sharedClass : sharedclass
     var body: some View {
         VStack{
-            Image("AppIcon").resizable().frame(width: 200, height: 100)
+            Image("AppIcontt").resizable().frame(width: 200, height: 100)
             Text("Welcome Back").bold().font(.title)
             Text("Log In To Your Account").font(.footnote)
             Spacer()
